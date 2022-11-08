@@ -28,6 +28,7 @@ public class Player implements Person{
         return username;
     }
 
+    public int getID(){ return id; }
     //overrides toString method in the Object class and returns the username
     @Override
     public String toString(){
